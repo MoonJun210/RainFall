@@ -17,7 +17,7 @@ public class RainFallRed : MonoBehaviour
         transform.position = new Vector3(x, y, 0);
 
         size = 0.8f;
-        //spriteRenderer.color = new Color(255 / 255f, 100 / 255f, 255 / 255f , 1f);
+        spriteRenderer.color = new Color(255 / 255f, 100 / 255f, 255 / 255f , 1f);
 
         transform.localScale = new Vector3(size, size, 0);
     }

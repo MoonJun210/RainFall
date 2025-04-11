@@ -16,7 +16,7 @@ public class RainFall : MonoBehaviour
 
         transform.position = new Vector3(x, y, 0);
 
-        int type = Random.Range(0, 3);
+        int type = Random.Range(0, 4);
 
         switch(type)
         {
@@ -29,6 +29,11 @@ public class RainFall : MonoBehaviour
                 size = 1.0f;
                 score = 2;
                 spriteRenderer.color = new Color(130 / 255f, 130 / 255f, 1f, 1f);
+                break;
+            case 2:
+                size = 0.8f;
+                score = -5;
+                spriteRenderer.color = new Color(255 / 255f, 100 / 255f, 255 / 255f, 1f);
                 break;
             default:
                 size = 1.2f;
