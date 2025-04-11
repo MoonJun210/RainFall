@@ -30,11 +30,6 @@ public class RainFall : MonoBehaviour
                 score = 2;
                 spriteRenderer.color = new Color(130 / 255f, 130 / 255f, 1f, 1f);
                 break;
-            case 2:
-                size = 0.8f;
-                score = -5;
-                spriteRenderer.color = new Color(255 / 255f, 100 / 255f, 255 / 255f, 1f);
-                break;
             default:
                 size = 1.2f;
                 score = 3;
